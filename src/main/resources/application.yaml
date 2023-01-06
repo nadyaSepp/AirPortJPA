@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: 'jdbc:postgresql://localhost:5432/demo_small_20170815'
+    username: postgres
+    password: rootroot
+server:
+    port:8080
+logging:
+  file:
+    name: log.log
